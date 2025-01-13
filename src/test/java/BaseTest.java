@@ -8,8 +8,8 @@ public class BaseTest {
         DriverHelper.getInstance();
     }
 
-   /* @AfterSuite
+   @AfterSuite
     public void destroyDriver() {
         DriverHelper.getInstance().quit();
-    }*/
+    }
 }
